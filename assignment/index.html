@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/client.js" charset="utf-8"></script>
+
+    <link rel="stylesheet" href="styles/style.css">
+
+    <title>jQuery Car Garage</title>
+
+  </head>
+  <body>
+    <header>
+      <h1>jQuery Car Garage</h1>
+    </header>
+    <form>
+      <label for="year">Year:</label>
+      <input type="text" id="year" name="year" required>
+      <br>
+      
+      <label for="make">Make:</label>
+      <input type="text" id="make" name="make" required>
+      <br>
+      
+      <label for="model">Model:</label>
+      <input type="text" id="model" name="model" required>
+      <br>
+
+      <label for="imageurl">ImageUrl:</label>
+      <input type="text" id="imageurl" name="imageurl" required>
+      <br>
+
+      <label for="price">Price:</label>
+      <input id="price" type="number" required>
+      <br>
+
+      
+      <button type="button" id="add-car">Add Car</button>
+    </form>
+      
+    <ul id="car-list">
+      
+    </ul>
+    
+  </body>
+</html>
